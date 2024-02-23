@@ -2,4 +2,3 @@
 bastion_ami: ami-03657b56516ab7912
 region: us-east-2
 MYIP: 101.188.67.134/32   #google it what is my ip & mestion it
-

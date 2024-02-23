@@ -2,13 +2,13 @@
   connection: local
   gather_facts: False
   tasks:
-    - name: Import CPC Variables
-      include_vars: vars/vpc_setup
+    - name: Import VPC Variables
+      include_vars: Varibles/vpc_setup
 
     - name: Create vprofile VPC
       ec2_vpc_net:
         name: "{{vpc_name}}"
-        cider_block: "{{VpcCider}}"
+        cider_block: "{{vpcCidr}}"
         region: "{{region}}"
         dns_support: yes
         dns_hostnames: yes

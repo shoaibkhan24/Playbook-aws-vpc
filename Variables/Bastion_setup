@@ -1,4 +1,4 @@
 # aws marketplace—cis (amazonelinux2)
-bastion_ami: ami-03657b56516ab7912
+bastion_ami: mi-0c7f9161f8491665f
 region: us-east-2
-MYIP: 101.188.67.134/32   #google it what is my ip & mestion it
+MYIP: 101.188.67.134/32   #google it wha t is my ip & mestion it
